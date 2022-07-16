@@ -84,7 +84,7 @@ def valid_snake(board : list, snake : list):
 #---------------PRINCIPAL FUNCTIONS-----------------#
 #---------------------------------------------------#
 def number_of_available_different_paths(board : list, snake : list, depth : int, direction : int = None):
-    """Check if the snake given is valid in the given board
+    """Get all the possibles paths for the snake in the board
 
     Parameters
     ----------
